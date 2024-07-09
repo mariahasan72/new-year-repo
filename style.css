@@ -139,6 +139,9 @@ margin-right: 380px;
 height: 464.65px;
 }
 
+/* midnight section styles ends here */
+
+/* vanue section styles start here */
 .vanue {
     width: 1320px;
 height: 482px;
@@ -176,4 +179,47 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 border-radius: 8px;
+}
+
+/* vanue section styles ends here */
+
+/* best offer section styles start here */
+
+.best-offer {
+max-width: 1320px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+row-gap:;
+margin-top: 80px;
+}
+
+.offer-description .red{
+    width: 33%;
+    font-size: 24px;
+    color: red;
+}
+.offer-description h2{
+    font-size: 48px;
+    color: #070211;
+    margin: 20px 0;
+}
+
+.offer-celebrate{
+    width: 33%;
+    font-size: 14px solid red;
+    padding: 30px;
+    border-radius: 100%;
+}
+offer-time h2{
+    width: 33%;
+    color: red;
+    font-size: 48px;
+}
+
+offer-time p{
+    font-size: 18px;
+    color: #070211b0;
+    margin: 10px 0;
 }
