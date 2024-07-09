@@ -80,6 +80,7 @@ height: 500px;
 .image-container img{
 width: 100%;
 height: 100%;
+margin: 0 auto;
 }
 
 /* midnight section styles start here */
@@ -94,6 +95,7 @@ height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    margin-top: 80px;
 }
 .leftside-content {
 width: 50%;
@@ -124,9 +126,10 @@ font-family: Inter;
 margin-top: 50px;
 font-size: 30px;
 font-weight: 700;
+margin-right: 380px;
 }
 .rightside-content {
-    width: 50%
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,4 +137,43 @@ font-weight: 700;
 .rightside-content img {
     width: 349.16px;
 height: 464.65px;
+}
+
+.vanue {
+    width: 1320px;
+height: 482px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+background-position: center;
+background-size: cover;
+margin-top: 100px;
+padding: 100 386 214  385;
+row-gap: 25px;
+}
+.vanue-title {
+    font-size: 32px;
+font-weight: 600;
+color: rgb(255, 0, 0);
+}
+.vanue-contant {
+    font-size: 32px;
+font-weight: 600;
+color: rgb(7, 2, 17)
+}
+.vanue a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    width: 167px;
+height: 56px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
 }
